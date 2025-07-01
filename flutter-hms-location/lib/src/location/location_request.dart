@@ -117,7 +117,7 @@ class LocationRequest {
     _interval = 3600000;
     _fastestInterval = (_interval ~/ _FASTEST_INTERVAL_FACTOR);
     _isFastestIntervalExplicitlySet = false;
-    _expirationTime = 9223372036854775807;
+    _expirationTime = 9007199254740991;
     _numUpdates = 2147483647;
     _smallestDisplacement = 0.0;
     _maxWaitTime = 0;
